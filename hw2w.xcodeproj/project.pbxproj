@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		641769891C34345B0087E789 /* hashTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 641769881C34345B0087E789 /* hashTable.cpp */; };
+		641B6ED11C3356DD00738742 /* pair.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 641B6ECF1C3356DD00738742 /* pair.cpp */; };
+		64BB0D0F1C3549A6005FCF7F /* university.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64BB0D0D1C3549A6005FCF7F /* university.cpp */; };
 		64BB1C121C32CA0F00237CE5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64BB1C111C32CA0F00237CE5 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,8 +26,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		641769881C34345B0087E789 /* hashTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hashTable.cpp; sourceTree = "<group>"; };
+		641B6ECF1C3356DD00738742 /* pair.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pair.cpp; sourceTree = "<group>"; };
+		641B6ED01C3356DD00738742 /* pair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pair.h; sourceTree = "<group>"; };
+		64B9AF4A1C32F94B0075FF67 /* hashTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hashTable.h; sourceTree = "<group>"; };
+		64BB0D0D1C3549A6005FCF7F /* university.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = university.cpp; sourceTree = "<group>"; };
+		64BB0D0E1C3549A6005FCF7F /* university.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = university.h; sourceTree = "<group>"; };
+		64BB0D101C354A80005FCF7F /* tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tree.h; sourceTree = "<group>"; };
+		64BB0D121C355D41005FCF7F /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		64BB0D131C355D41005FCF7F /* UnionFind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnionFind.h; sourceTree = "<group>"; };
+		64BB0D141C355DEC005FCF7F /* UFindException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFindException.h; sourceTree = "<group>"; };
 		64BB1C0E1C32CA0F00237CE5 /* hw2w */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hw2w; sourceTree = BUILT_PRODUCTS_DIR; };
 		64BB1C111C32CA0F00237CE5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		64BB1C231C32E70E00237CE5 /* list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +71,18 @@
 		64BB1C101C32CA0F00237CE5 /* hw2w */ = {
 			isa = PBXGroup;
 			children = (
+				64BB0D141C355DEC005FCF7F /* UFindException.h */,
+				64BB0D121C355D41005FCF7F /* Student.h */,
+				64BB0D131C355D41005FCF7F /* UnionFind.h */,
+				64BB0D101C354A80005FCF7F /* tree.h */,
+				641B6ECF1C3356DD00738742 /* pair.cpp */,
+				641B6ED01C3356DD00738742 /* pair.h */,
 				64BB1C111C32CA0F00237CE5 /* main.cpp */,
+				64BB1C231C32E70E00237CE5 /* list.h */,
+				64B9AF4A1C32F94B0075FF67 /* hashTable.h */,
+				641769881C34345B0087E789 /* hashTable.cpp */,
+				64BB0D0D1C3549A6005FCF7F /* university.cpp */,
+				64BB0D0E1C3549A6005FCF7F /* university.h */,
 			);
 			path = hw2w;
 			sourceTree = "<group>";
@@ -118,7 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				641769891C34345B0087E789 /* hashTable.cpp in Sources */,
+				64BB0D0F1C3549A6005FCF7F /* university.cpp in Sources */,
 				64BB1C121C32CA0F00237CE5 /* main.cpp in Sources */,
+				641B6ED11C3356DD00738742 /* pair.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +265,7 @@
 				64BB1C171C32CA0F00237CE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
